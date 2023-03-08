@@ -1,0 +1,207 @@
+/* BANNER Y FORMULARIO */
+.bg-img {
+    background-image: url("../img/1.jpg");
+    min-height: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+}
+
+.mycontainer {
+  position: absolute;
+  right: 200px;
+  margin: 13px;
+  width: 100%;
+  max-width: 500px;
+  padding: 35px;
+  background-color: rgb(255, 255, 255, .5);
+}
+
+.select1{
+  background-color:#1c7abe;
+  color: #fff;
+  height: 47px;
+}
+
+.select2{
+  background-color: #84b5d8;
+  color: #fff;
+  height: 47px;
+}
+
+
+
+#datePicker{
+  height: 48px;
+}
+
+.form-btn{
+  background-color: #574585 !important;
+  height: 50px;
+  max-height: 75px;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  padding: 0px;
+}
+/* BANNER Y FORMULARIO */
+
+/* CARDS BENEFICIOS 1  */
+.cards{
+    text-align: center;
+    padding: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+  .card{
+    text-align: center;    
+    border: none;
+  }
+  
+  img.benef-img{
+    padding: 80px;
+  }
+
+  .myTitle{
+    color: rgb(13,123,232);
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  /* CARDS BENEFICIOS 1  */
+
+  /* SEPARADOR 1  */
+.separator{
+    height: 70px;
+    background-color: #574585;
+    color: #fff;
+    margin-top: 30px;
+    text-align: center;
+    width: 100%;
+   
+  }
+  
+  .separator h2{
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
+  
+  /* SEPARADOR 1  */
+
+  /* BANNER SERVICIOS  */
+.showcase{
+    background-image: linear-gradient(to bottom right, rgb(20, 142, 194), #5a359c);
+    width: 100%;
+  }
+  
+  .showcase .card{
+    background-color: rgb(255, 255, 255, 0)
+  }
+
+  .showcase .card .myTitle{
+    color: #fff;
+    margin-top: -20px;
+  }
+  .showcase h2{
+    text-align: center;
+    color: #fff;
+    margin-top: 40px;
+  }
+  
+  /* BANNER SERVICIOS  */
+
+  /* CARDS BENEFICIOS 2 */
+.imgCard2{
+    width: 200px;
+    height: 190px; 
+  }
+  /* CARDS BENEFICIOS 2 */
+
+  /* SEPARADOR 2 */
+.container-fluid h1{
+    text-align: center;
+    color: #5a359c;
+    height: 100px;
+    position: relative;
+    top: 60px;
+    margin-bottom: 55px;
+  }
+  /* SEPARADOR 2 */
+
+/* SEPARADOR 3 */
+.container-fluid h4{
+    text-align: center;
+    color: #264cc9;
+    height: 100px;
+    position: relative;
+    top: 60px;
+    margin-bottom: 55px;
+    font-size: 28px;
+    font-weight: 100 !important;
+  }
+  /* SEPARADOR 3 */
+
+  @media (max-width: 992px){
+    .showcase .card img{
+      width: 200px;
+      height: 200px;
+      align-self: center;
+    }
+  }
+
+  @media (max-width: 1200px){
+    img.benef-img{
+      padding:20px;
+    }
+  }
+
+  @media (max-width: 750px){
+    img.benef-img{
+      padding: 120px;
+    }
+  }
+
+  @media (max-width: 550px){
+    img.benef-img{
+      padding: 70px;
+    }
+  }
+
+  @media (min-width: 768px){
+    .seven-cols .col-md-1,
+    .seven-cols .col-sm-1,
+    .seven-cols .col-lg-1  {
+      width: 100%;
+      *width: 100%;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .seven-cols .col-md-1,
+    .seven-cols .col-sm-1,
+    .seven-cols .col-lg-1 {
+      width: 14.285714285714285714285714285714%;
+      *width: 14.285714285714285714285714285714%;
+    }
+  }
+  
+  /**
+   *  The following is not really needed in this case
+   *  Only to demonstrate the usage of @media for large screens
+   */    
+  @media (min-width: 1200px) {
+    .seven-cols .col-md-1,
+    .seven-cols .col-sm-1,
+    .seven-cols .col-lg-1 {
+      width: 14.285714285714285714285714285714%;
+      *width: 14.285714285714285714285714285714%;
+    }
+
+    
+  }

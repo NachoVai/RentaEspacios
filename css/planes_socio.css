@@ -1,0 +1,150 @@
+/* NAVBAR AVATAR */
+
+.dropdown-toggle::after{
+    content: none;
+}
+
+.bi-person{
+    font-size: 40px;
+    border-radius: 50%;
+    color: #fff;
+}
+
+button.nav-btn{
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 24px;
+    line-height: 1.33;
+}
+
+.btn-secondary {
+    background-color: #1c7bbf;
+    border-color: #1c7bbf;
+}
+
+.drop-btn {
+    background-color: #c16a23 !important;
+    border-color: #c16a23;
+}
+
+/* LEFT */
+
+.side-left{
+    background-color: #f4f8fb;
+}
+
+hr{
+    border: 3px solid;
+    border-color: #9ea6aa;
+}
+
+.miPerfil{
+    color: #1c7bbf;
+}
+
+.h4{
+    margin-bottom: 100px;
+}
+
+.h4 a{
+    text-decoration: none;
+    color: #1c7bbf;
+}
+
+.avatar1{
+    border-radius: 50%;
+    width: 150px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+
+/* LEFT SOCIOS */
+.h5{
+    margin-left: 15%;
+    margin-bottom: 30px;
+}
+.h5 a{
+    text-decoration: none;
+}
+
+.h4-socio{
+    margin-bottom: 25px;
+}
+
+.h4-socio a{
+    text-decoration: none;
+    color: #1c7bbf;
+}
+
+/* .h5:hover{
+    background-color: #1c7bbf;
+    height: 50px;
+    color: #fff;
+    
+} */
+
+/* RIGTH */
+
+.table-responsive{
+    background-color: #f5f5f5 !important;
+}
+
+.table2{
+    background-color: #fff !important;
+}
+
+.t-color{
+    background-color: #fff !important;
+    padding: 5px;
+    border-radius: 5%;
+}
+.form-control{
+    background-color: #f5f5f5;
+    border: none;
+}
+
+.my-form{
+    min-width: 100px;
+    
+}
+.semanal{
+    margin-top: 40px;
+}
+
+.dropdown .btn{
+    background-color: #584585 !important;
+}
+
+.btn-primary{
+    background-color: #1c7bbf;
+}
+
+.form-check-input:checked {
+    background-color:rgba(88,69,133,255);
+    border-color: pink;
+}
+.form-switch .form-check-input {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba(88,69,133,255)'/%3e%3c/svg%3e");
+}
+.form-switch .form-check-input:focus {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba(88,69,133,255)'/%3e%3c/svg%3e");
+}
+.bi-pencil-square{
+    color: rgba(88,69,133,255);
+}
+@media (max-width: 992px) {
+
+
+    .cerrar-btn{
+        margin: auto;
+        margin-bottom: 100px;
+    }
+
+
+}
+
+
+

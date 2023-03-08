@@ -1,0 +1,152 @@
+/* NAVBAR CON FORMULARIO */
+.navForm{
+    background-color: #f5f5f5;
+    padding: 15px;
+}
+
+.btnNav2{
+    background-color: #83c390;
+    border: none;
+    border-radius: 50%;
+    justify-self: self-end;
+}
+
+.btn-filtro{
+    background-color: rgba(255, 255, 255, 0);
+    color: black;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color:#88b7d9;  
+}
+
+.selectColor2{
+    background-color:#88b7d9;
+    border: none;
+    color: #fff;
+}
+
+.bi-sliders{
+    width: 50px;
+    height: 50px;
+}
+/* NAVBAR CON FORMULARIO */
+
+/* FILTRO DESPLEGABLE */
+.sidebar{
+    height: auto;
+    background-color:#1c7abe;
+    display: none;
+    min-width: 250px;
+}
+
+.sidebar p{
+    color: #fff;
+    font-size: 15px;
+}
+
+.sidebar a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.sidebar ul li{
+    list-style: none;
+}
+
+.sidebar a:hover{
+    color: #000000;
+}
+/* FILTRO DESPLEGABLE */
+
+/* CARDS SECTION */
+.myCard2{
+    text-align: center;
+}
+
+.imgCard{
+    padding: 50px;
+    height: 380px;
+}
+
+.card-text{
+    text-align: justify;
+}
+
+.btn-card{
+    justify-content: center;
+    background-color: #1c7abe !important;
+}
+/* CARDS SECTION */
+
+/* PINCHA AQUI */
+.pinchaAqui{
+    background-color: #f5f5f5;
+}
+
+.pinchaAqui .btn{
+    background-color: #1c7abe;
+    color: #fff;
+}
+
+.pinchaAqui h2{
+    color: #1c7abe;
+}
+/* PINCHA AQUI */
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 1500px) {
+    
+
+    .imgCard{
+        padding: 10px;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .micolumna {
+        display: none;
+    }
+
+    .sidebar{
+        max-width: none;
+        min-width: 200px;
+        z-index: 1;
+    }    
+
+    .imgCard{
+        padding: 0px;
+    }
+}
+
+
+/* NAVBAR CON FORMULARIO RESPONSIVO */
+@media (min-width: 768px){
+.eight-cols .col-md-1,
+.eight-cols .col-sm-1,
+.eight-cols .col-lg-1  {
+	width: 100%;
+	*width: 100%;
+	}
+}
+
+@media (min-width: 992px) {
+.eight-cols .col-md-1,
+.eight-cols .col-sm-1,
+.eight-cols .col-lg-1 {
+	width: 12.5%;
+	*width: 12.5%;
+	}
+}
+
+@media (min-width: 1200px) {
+.eight-cols .col-md-1,
+.eight-cols .col-sm-1,
+.eight-cols .col-lg-1 {
+	width: 12.5%;
+	*width: 12.5%;
+	}
+}

@@ -1,0 +1,67 @@
+/* SECTION */
+.section{
+    background-color: #f5f5f5;
+}
+
+/* LEFT */
+.section-img{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.btn-lg{
+    background-color: #1c7abe;
+    color: #fff;
+}
+
+.btn:hover{
+    color: #fff;
+}
+
+.btn-color{
+    background-color: #88b7d9;
+    color: #fff;
+}
+/* LEFT */
+
+/* RIGTH */
+.container-color{
+    background-color: #fff;
+}
+
+.a1{
+    color: #000;
+}
+
+.a2{
+    text-decoration: none;
+    color: #000;
+}
+
+.btnIngresar{
+    background-color: #fff !important;
+    color: #3bb5a2 !important;
+    border-color: #3bb5a2 !important;
+    border-width: 2px;
+}
+
+.myInput{
+    border-width: 0px;
+    background-color: #f5f5f5;
+}
+
+.btn-color2{
+    background-color: #574585;
+    color: #fff;
+}
+
+.ps-5{
+    background-color: #36b39f;
+    border: none;
+}
+
+.ps-5.btn:hover{
+    background-color: #36b39f;
+}
+/* RIGTH */

@@ -1,0 +1,472 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Renta Espacios</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
+    
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/7e481f2a93.js" crossorigin="anonymous"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    
+    <!-- BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+  </head>
+
+  <body>
+
+    <!-- NAVBAR -->
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <a href="index.html"><img src="img/logo_1.png" class="nav-brand" width="180px" height="40px" ></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-label="Toggle navigation" aria-expanded="false">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="register_user.html">CREAR CUENTA</a>
+            </li>
+            <li class="nav-item dropdown">
+              <button class="btn btn-secondary btn-sm nav-btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" >
+                INGRESAR
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="login_user.html">USUARIO</a></li>
+                <li><a class="dropdown-item" href="login_partner.html">SOCIO ARRENDADOR</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- NAVBAR -->
+
+    <!-- BANNER Y FORMULARIO -->
+    <section class="bg-img">        
+      <div class="mycontainer">
+        <form>
+          <label for="email"><b>TIPO*</b></label>
+          <select class="form-select select1 form-select-lg mb-2">
+            <option selected>Selecciona tipo de espacio</option>
+            <option value="1">Privado</option>
+            <option value="2">Sala de Reuniones</option>
+            <option value="3">Salas de Capacitación</option>
+            <option value="4">Cowork</option>
+          </select>
+          <label for="email"><b>CIUDAD*</b></label>
+          <select class="form-select select2 form-select-lg mb-2" >
+            <option selected>Selecciona ciudad</option>
+            <option value="1">Santiago</option>
+            <option value="2">Dos</option>
+            <option value="3">Tres</option>
+          </select>
+      
+          <label for="psw"><b>COMUNA*</b></label>
+          <select class="form-select select2 form-select-lg mb-2">
+            <option selected>Selecciona comuna</option>
+            <option value="1">Uno</option>
+            <option value="2">Dos</option>
+            <option value="3">Tres</option>
+          </select>
+
+          <label for="psw"><b>SECTOR</b></label>
+          <select class="form-select select2 form-select-lg mb-2">
+            <option selected>Selecciona sector</option>
+            <option value="1">Uno</option>
+            <option value="2">Dos</option>
+            <option value="3">Tres</option>
+          </select>
+
+          <div class="row">
+            <div class="col">
+              <label for="psw"><b>FECHA</b></label>
+              <input id="datePicker" class="form-control" type="date" />
+            </div>
+            <div class="col">
+              <label for="psw"><b>JORNADA</b></label>
+              <select class="form-select select1 form-select-lg mb-3">
+                <option selected>Selecciona jornada</option>
+                <option value="1">Privado</option>
+                <option value="2">Sala de Reuniones</option>
+                <option value="3">Salas de Capacitación</option>
+                <option value="4">Cowork</option>
+              </select>
+            </div>
+          </div>
+      
+          <button type="submit" class="btn form-btn">BUSCAR ESPACIOS DISPONIBLES</button>
+        </form>  
+      </div>
+    </section>
+    <!-- BANNER Y FORMULARIO -->
+
+    <!-- CARDS BENEFICIOS 1 --> 
+    <div class="container mt-5">
+      <div class="row row-cols-1 row-cols-md-3 g-4 mt-5 ">
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/1-8.png" class="card-img-top benef-img" alt="...">
+            <div class="card-body">
+              <h4 class="card-title myTitle">SERVICIOS GARANTIZADOS
+                EN TODOS NUESTROS ESPACIOS</h4>
+              <p class="card-text">No importa el espacio que elijas,
+                siempre contarás con internet de alta
+                velocidad, recepción, servicio de café y
+                servicios básicos. Todo esto y mucho
+                más ya incluido en cualquiera de
+                nuestros planes.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/2-8.png" class="card-img-top benef-img" alt="...">
+            <div class="card-body">
+              <h4 class="card-title myTitle">PAGA SOLO POR LO QUE USAS</h4>
+              <p class="card-text">¿Necesitas un lugar para tener esa
+                reunión de los lunes por la mañana?
+                ¿O una sala donde realizar tus
+                capacitaciones durante varias
+                jornadas completas? ¡No te
+                preocupes! Tenemos el plan perfecto
+                para lo que necesitas.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/3-8.png" class="card-img-top benef-img" alt="...">
+            <div class="card-body">
+              <h4 class="card-title myTitle">ENCUENTRA UN ESPACIO
+                DONDE SEA QUE ESTÉS</h4>
+              <p class="card-text">Contamos con espacios disponibles
+                en diferentes regiones del país para
+                que siempre puedas encontrar una
+                alterna. Tú eliges las condiciones,
+                nosotros lo buscamos por ti.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+    <!-- CARDS BENEFICIOS 1 -->
+
+    <!-- SEPARADOR -->
+    <br>
+    <br>
+    <div class="separator">
+      <h2>ESPACIOS DESTACADOS</h2>
+    </div>
+    <!-- SEPARADOR -->
+
+    <!-- CARDS DISPONIBILIDAD -->
+    <section class="container cards2">
+      <div class="row row-cols-1 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card myCard2">
+            <img src="img/sala_1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h6 class="card-title myTitle">NOMBRE Y DESCRIPCIÓN BREVE</h6>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet</p>
+              <button type="submit" class="btn btn-card">VER DISPONIBILIDAD</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card myCard2">
+            <img src="img/sala_2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h6 class="card-title myTitle">NOMBRE Y DESCRIPCIÓN BREVE</h6>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet</p>
+              <button type="submit" class="btn  btn-card">VER DISPONIBILIDAD</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card myCard2">
+            <img src="img/sala_3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h6 class="card-title myTitle">NOMBRE Y DESCRIPCIÓN BREVE</h6>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet</p>
+              <button type="submit" class="btn  btn-card">VER DISPONIBILIDAD</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- CARDS DISPONIBILIDAD -->
+    <br>
+    <br>
+
+    <!-- BANNER SERVICIOS -->
+    <div class="showcase">
+      <h2 class="pt-5">TODOS NUESTROS ESPACIOS CUENTAN CON:</h2>      
+      <div class="container">
+        <div class="row  g-4 mt-5 justify-content-between">
+          <div class="col-lg-2">
+            <div class="card justify-content-center">
+              <img src="img/4-8.png" class="card-img-top p-2" alt="...">
+              <div class="card-body">
+                <h6 class="card-title myTitle">Servicio de café</h6>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="card ">
+              <img src="img/5-8.png" class="card-img-top p-2" alt="...">
+              <div class="card-body">
+                <h6 class="card-title myTitle">Recepción y control
+                  de acceso</h6>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="card ">
+              <img src="img/6-8.png" class="card-img-top p-2" alt="...">
+              <div class="card-body">
+                <h6 class="card-title myTitle">Internet de alta
+                  velocidad</h6>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="card ">
+              <img src="img/7-8.png" class="card-img-top p-2" alt="...">
+              <div class="card-body">
+                <h6 class="card-title myTitle">Ofícinas completamente
+                  amobladas
+                  </h6>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="card">
+              <img src="img/8-8.png" class="card-img-top p-2" alt="...">
+              <div class="card-body">
+                <h6 class="card-title myTitle">Servicio de aseo
+                  y mantenimiento</h6>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- BANNER SERVICIOS -->
+
+    <!-- SEPARADOR 2 -->
+    <div class="container-fluid pb-3">
+      <strong><h1>Encuentra un espacio a tu medida</h1></strong>
+      
+    </div>
+    <!-- SEPARADOR 2 -->
+
+    <!-- NAVBAR CON FORMULARIO -->
+    <div class="separator2">
+      <div class="container-fluid">
+        <form class="row gy-2 seven-cols">
+          <div class="col-md-1">
+            <select class="form-select selectColor1" id="autoSizingSelect">
+              <option selected>Tipo de espacio</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+          </div>
+          <div class="col-md-1">
+            <select class="form-select selectColor2" id="autoSizingSelect">
+              <option selected>Ciudad</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+          </div>
+          <div class="col-md-1">
+            <select class="form-select selectColor2" id="autoSizingSelect">
+              <option selected>Comuna</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+          </div>
+          <div class="col-md-1">
+            <select class="form-select selectColor2" id="autoSizingSelect">
+              <option selected>Sector</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+          </div>
+          <div class="col-md-1">
+            <input placeholder="Fecha" class="form-control" type="date" />
+          </div>
+          <div class="col-md-1">
+            <select class="form-select selectColor1" id="autoSizingSelect">
+              <option selected>Tipo de Jornada</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+          </div>
+          <div class="col-md-1">
+            <button type="submit" class="btn btn-primary btnSeparator"><i class="bi bi-search"></i> Buscar Espacios</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- NAVBAR CON FORMULARIO -->
+  
+    <!-- SEPARADOR 3 -->
+    <div class="container-fluid">
+      <h4>¿Quieres publicar tus espacios en arriendo?
+        Forma parte de Renta Espacios</h4>
+    </div>
+    <!-- SEPARADOR 3 -->
+
+    <!-- CAROUSEL -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div>
+            <img src="img/4.jpg" class="d-block w-100" alt="...">
+
+          </div>
+          
+        </div>
+        <div class="carousel-item">
+          <img src="img/2.png" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- CAROUSEL -->
+
+    <!-- CARDS BENEFICIOS 2 -->
+    <div class="container mt-5">
+      <div class="row row-cols-1 row-cols-md-3 g-4 mt-5 ">
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/9-8.png" class="card-img-top benef-img" alt="...">
+            <div class="card-body">
+              <h4 class="card-title myTitle">AUMENTA LA VISIBILIDAD
+                DE TU OFERTA</h4>
+              <p class="card-text">Haz que tus clientes te encuentren de
+                manera mas fácil y rápida. Gestiona
+                filtros y planes a tu medida.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/10-8.png" class="card-img-top benef-img" alt="...">
+            <div class="card-body">
+              <h4 class="card-title myTitle">AUTOMATIZA TU
+                AGENDAMIENTO</h4>
+              <p class="card-text">Facilita la forma en la que gestionas
+                tus reservas. Con nuestro sistema de
+                agendamiento automático online,
+                libérate de la desgastante tarea de
+                confirmar tus reservas manera manual
+                con cada uno de tus clientes. </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/11-8.png" class="card-img-top benef-img" alt="...">
+            <div class="card-body">
+              <h4 class="card-title myTitle">FACILITAMOS TU
+                GESTIÓN TRIBUTARIA</h4>
+              <p class="card-text">Te entregamos todo lo que necesitas
+                para mantener tu información
+                tributaria y registros de arrendamiento
+                en completo orden y transparencia. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- CARDS BENEFICIOS 2 -->
+
+    <!-- FOOTER -->
+    <div class="mt-5">
+      <footer class="text-center text-lg-start text-white">
+        <div class="container-xxl p-4">
+          <div class="row mt-4">
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0 my-4">
+              <ul class="list-unstyled mb-0">
+                <br>
+                <li>
+                  <a href="#!" class="text-white">Políticas del sitio</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Conviértete en socio arrendador</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Contacto</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-7 col-md-6 mb-4 mb-md-0">
+              <div class="footer-logo align-self-center">
+                <img src="img/logo-1.png" class="img-fluid " alt="">
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-6 mb-4 mb-md-0 my-3">
+              <ul class="list-unstyled rrss d-flex justify-content-center">
+                <li>
+                  <a href="#!" class="text-white"><i class="bi bi-facebook fa-2x"></i></a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white "><i class="bi bi-instagram fa-2x"></i></a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white"><i class="bi bi-whatsapp fa-2x"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="navBottom ml-3 p-3" style="background-color: rgba(0, 0, 0, 1)">
+          Derechos del sitio web (Copyright ©)
+        </div>
+      </footer>
+    </div>
+    <!-- FOOTER -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  
+  </body>
+</html>

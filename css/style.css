@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif; 
+}
+
+/* NAVBAR */
+
+.nav-link{
+    padding-bottom: 12px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color:#36b39f;
+}
+
+ul.navbar-nav{
+    align-items: end;
+}
+
+.nav-btn{
+  padding: 8px 7px !important;
+  margin-bottom: 4px !important;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #36b39f;
+    border-color: #36b39f;
+}
+/* NAVBAR */
+
+/* CARDS DISPONIBILIDAD  */
+.cards2{
+  text-align: center;
+}
+
+.myCard2{
+  border: none;
+  margin-top: 40px;
+}
+
+.myCard2 p{
+  font-size: 14px;
+}
+
+.btn-card{
+  background-color: rgb(0,85,122) !important;
+  text-align: center;
+  color: #fff;
+}
+/* CARDS DISPONIBILIDAD  */
+
+
+/* NAVBAR CON FORMULARIO */
+.separator2{
+  background-color:#574585;
+  padding: 10px !important;
+}
+
+.separator2 .container-fluid{
+  width: 90% !important;
+}
+
+.selectColor1{
+  background-color: #1c7abe;
+  border: none;
+  color: #fff;
+}
+
+.selectColor2{
+  background-color: #36b39f;
+  border: none;
+  color: #fff;
+}
+
+.btnSeparator{
+  background-color: #83c390;
+  border: none;
+}
+
+/* NAVBAR CON FORMULARIO */
+
+/* CAROUSEL */
+.carousel .carousel-item {
+  max-height:600px;
+}
+
+.carousel-item img {
+  object-fit:cover;
+  max-height:600px;
+}
+/* CAROUSEL */
+
+/* FOOTER */
+footer{
+  background-color: rgba(87,69,133,255);
+}
+
+footer a{
+  text-decoration: none;
+}
+
+.rrss {
+  display: flex;
+}
+
+.rrss li{
+  padding: 10px;
+  margin-top: 40px;
+}
+/* FOOTER */
+
+/* SELECT ARROW */
+
+.form-select{
+  background-image: url(../img/icons8-collapse-arrow-64.png);
+  opacity: 1 !important;
+}
+
+
+/* RESPONSIVE MEDIA QUERYS */
+
+@media (max-width: 992px){
+  .nav-brand{
+      margin-left: 0px;
+  }
+  .mycontainer{
+    display: inline-block;
+    right: 0px !important;
+  }
+}
+
+@media (max-width: 560px){
+  .mycontainer{
+    align-items: center;
+    margin-top: 13px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-top: 27px;
+  }
+
+  /* .mx-auto{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  } */
+}

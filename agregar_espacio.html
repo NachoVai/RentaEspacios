@@ -1,0 +1,765 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Renta Espacios</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/agregar_espacio.css">
+    
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/7e481f2a93.js" crossorigin="anonymous"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    
+    <!-- BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+  </head>
+
+  <body>
+
+    <!-- NAVBAR -->
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light">
+      <div class="container ">
+        <a href="index.html"><img src="img/logo_1.png" class="nav-brand" width="180px" height="40px" ></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-label="Toggle navigation" aria-expanded="false">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 justify-content-center">
+            <li class="nav-item pb-3 ">
+              <a class="nav-link" href="#">NOMBRE SOCIO</a>
+            </li>
+            <li class="nav-item dropdown ">
+              <button class="btn btn-secondary drop-btn btn-md nav-btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" ><i class="bi bi-person"></i>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">MIS PROPIEDADES</a></li>
+								<li><a class="dropdown-item" href="#">IR A MI PERFIL</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- NAVBAR -->
+
+		<!-- LEFT -->
+    <section class="container-fluid h-100">
+			<div class="row">
+				<div class="col-lg-3 side-left">
+					<div class="container">
+						<h4 class="text-center mt-5 mb-3 miPerfil">MI PERFIL</h4>
+						<img src="img/testimonials-2.jpg " alt="" class="avatar1 mx-auto d-block">
+						<h3 class="text-center mt-3 mb-5">NOMBRE SOCIO</h3>
+						<hr>
+						<h4 class="h4-socio mt-5"><a href="">MIS PROPIEDADES</a></h4>
+						<h5 class="h5"><a href="">Mis planes</a></h5>
+						<h5 class="h5"><a href="">Administrar propiedades</a></h5>
+						<h5 class="h5"><a href="">Administrar espacios</a></h5>
+						<h4 class="h4-socio"><a href="">MI CUENTA</a></h4>
+						<h5 class="h5"><a href="">Datos representante legal</a></h5>
+						<h5 class="h5"><a href="">Pagos</a></h5>
+					</div>
+				</div>
+
+        <!-- RIGTH -->
+				<div class="col-lg-9 mt-5">
+					<div class="container mb-5">
+						
+							<div class="row">
+								<div class="col-lg-9">
+									<div class="row mt-5">
+										<div class="col-lg-5">
+											<h3 class="text-center">Mis espacios en </h3>
+										</div>
+										<div class="col-lg-5">
+											<div class="dropdown">
+												<a class="btn btn-secondary mx-auto d-block dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+													Seleccionar propiedad <i class="bi bi-caret-down-fill"></i>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+			
+						
+						<!-- TABLE -->
+						<div class="table-responsive">	
+								<!--ID 1  -->
+							<table class="table table-borderless align-middle align-content-middle text-center">
+								<thead>
+									<tr>
+										<td></td>
+										<td colspan="4">NOMBRE Y DESCRIPCIÓN</td>
+										<td scope="col">VALOR</td>
+										<td scope="col">ESTADO DEL ESPACIOS <br>
+																		(ARRENDADO/DISPONIBLE)
+										</td>
+										<td scope="col">PLANES ASOSIADOS</td>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td class="my-img">
+											<img src="img/sala_1.jpg" class="my-img mt-2" alt="...">
+										</td>
+										<td  colspan="3">
+											<div class="col-nombre">
+												<h5 class=" text-start">Nombre espacio</h5>
+												<p class="text-start">Esta es una tarjeta más amplia con texto de apoyo a continuación como introducción natural a contenido adicional. Este contenido es un poco más largo.</p>
+											</div>
+										</td>
+									
+										<td scope="col"></td>
+										<td scope="col">
+											<div class="t-color">$100.000</div>
+										</td>
+										<td scope="col">
+											<ul>
+												<li class="btn btn-disponible">
+													Disponible
+												</li>
+												<li>
+													<button class="btn btn-arrendado">Arrendado</button>
+												</li>
+												<li>
+													<button class="btn btn-arrendado">Arrendado</button>
+												</li>
+												<li>
+													<button class="btn btn-disponible">Disponible</button>
+												</li>
+												<li>
+													<button class="btn btn-disponible">Disponible</button>
+												</li>
+											</ul>
+										</td>
+										<td scope="col">
+											<ul>
+												<li>
+													<div class="d-flex">
+														<button class="btn btn-primary">Plan 1</button><i class="bi bi-x-square ms-3 mt-1 fs-5"></i>
+													</div>
+													
+												</li>
+												<li>
+													<div class="d-flex">
+														<button class="btn btn-primary">Plan 2</button><i class="bi bi-x-square ms-3 mt-1 fs-5"></i>
+													</div>
+												</li>
+												<li>
+													<div class="d-flex">
+														<button class="btn btn-primary">Plan 3</button><i class="bi bi-x-square ms-3 mt-1 fs-5"></i>
+													</div>
+												</li>
+												<li>
+													<div class="d-flex">
+														<button class="btn btn-primary">Plan 4</button><i class="bi bi-x-square ms-3 mt-1 fs-5"></i>
+													</div>
+												</li>
+												<li>
+													<div class="d-flex">
+														<button class="btn btn-primary">Plan 5</button><i class="bi bi-x-square ms-3 mt-1 fs-5"></i>
+													</div>
+												</li>
+											</ul>
+										</td>
+									</tr>
+									<tr>
+										<td scope="col">
+											<button class="btn btn-lg btn-primary  mx-auto d-block fs-6">Editar Espacio</button>
+										</td>
+									</tr>
+									<tr>
+										<td scope="col">
+											<button class="btn btn-lg btn-success mx-auto d-block fs-6">Eliminar</button>
+										</td>
+										<td colspan="6">								
+										</td>
+										<td scope="col">
+											<button class="btn btn-lg btn-primary btn-color fs-6">Agregar plan</button>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+							<hr class="w-100">
+							<!-- ID 2 -->
+							<table class="table table-borderless align-middle align-content-middle text-center ">
+								<thead class="invisible">
+									<tr>
+										<td></td>
+										<td colspan="4" >NOMBRE Y DESCRIPCIÓN</td>
+										<td scope="col">VALOR</td>
+										<td scope="col">ESTADO DEL ESPACIOS <br>
+																		(ARRENDADO/DISPONIBLE)
+										</td>
+										<td scope="col">PLANES ASOSIADOS</td>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td class="my-img">
+											<img src="img/sala_1.jpg" class="my-img mt-2" alt="...">
+										</td>
+										<td  colspan="3">
+											<div class="col-nombre">
+												<h5 class=" text-start">Nombre espacio</h5>
+												<p class="text-start">Esta es una tarjeta más amplia con texto de apoyo a continuación como introducción natural a contenido adicional. Este contenido es un poco más largo.</p>
+											</div>
+										</td>
+									
+										<td scope="col"></td>
+										<td scope="col">
+											<div class="t-color">$100.000</div>
+										</td>
+										<td scope="col">
+											<ul>
+												<li class="btn btn-disponible">
+													Disponible
+												</li>
+												<li>
+													<button class="btn btn-arrendado">Arrendado</button>
+												</li>
+												<li>
+													<button class="btn btn-arrendado">Arrendado</button>
+												</li>
+												<li>
+													<button class="btn btn-disponible">Disponible</button>
+												</li>
+												<li>
+													<button class="btn btn-disponible">Disponible</button>
+												</li>
+											</ul>
+										</td>
+										<td scope="col">
+											<ul>
+												<li>
+													<div class="d-flex">
+														<button class="btn btn-primary">Plan 1</button><i class="bi bi-x-square ms-3 mt-1 fs-5"></i>
+													</div>
+													
+												</li>
+												<li>
+													<div class="d-flex">
+														<button class="btn btn-primary">Plan 2</button><i class="bi bi-x-square ms-3 mt-1 fs-5"></i>
+													</div>
+												</li>
+												<li>
+													<div class="d-flex">
+														<button class="btn btn-primary">Plan 3</button><i class="bi bi-x-square ms-3 mt-1 fs-5"></i>
+													</div>
+												</li>
+												<li>
+													<div class="d-flex">
+														<button class="btn btn-primary">Plan 4</button><i class="bi bi-x-square ms-3 mt-1 fs-5"></i>
+													</div>
+												</li>
+												<li>
+													<div class="d-flex">
+														<button class="btn btn-primary">Plan 5</button><i class="bi bi-x-square ms-3 mt-1 fs-5"></i>
+													</div>
+												</li>
+											</ul>
+										</td>
+									</tr>
+									<tr>
+										<td scope="col">
+											<button class="btn btn-lg btn-primary  mx-auto d-block fs-6">Editar Espacio</button>
+										</td>
+									</tr>
+									<tr>
+										<td scope="col">
+											<button class="btn btn-lg btn-success mx-auto d-block fs-6">Eliminar</button>
+										</td>
+										<td colspan="6">								
+										</td>
+										<td scope="col">
+											<button class="btn btn-lg btn-primary btn-color fs-6">Agregar plan</button>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<!-- FORM -->
+					<div class="container mt-5 mb-5">
+						<div class="row">
+							<div class="col-lg-8 offset-lg-2 mt-5">
+								<h3 class="mb-5">Agregar nuevo espacio</h3>
+								<h5>Datos del espacio:</h5>
+								<form>
+									<div class="row">
+										<div class="col-lg-6">
+											<label class="form-label ms-3 mt-3">DIRECCIÓN</label>
+											<select class="form-select my-select" aria-label="Default select example">
+												<option selected>Abre este menú select</option>
+												<option value="1">PRIVADO</option>
+												<option value="2">SALA DE REUNIONES</option>
+												<option value="3">SALAS DE CAPACITACIÓN</option>
+												<option value="1">COWORK</option>
+											</select>
+										</div>
+										<div class="col-12">
+											<label class="form-label ms-3 mt-3">NOMBRE</label>
+											<input type="email" class="form-control" placeholder="Nombre de tu espacio">
+										</div>
+										<div class="col-12">
+											<label class="form-label ms-3 mt-3">DESCRIPCIÓN</label>
+											<textarea class="form-control" placeholder="Describe las caraterísticas del espacio" style="height: 100px"></textarea>
+										</div>
+										<div class="col-12">
+											<label class="form-label ms-3 mt-3">DIRECCIÓN</label>
+											<input type="email" class="form-control" placeholder="(Por defecto aparecerá la dirección de la propiedad seleccionada)">
+										</div>
+
+										<!-- CHECKS -->
+										<div class="col-12 mt-5">
+											<label class="form-label ms-3 mt-5">SERVICIOS ADICIONALES</label>
+											<div class="row checks">
+												<div class="col-lg-4 col-md-6">
+													<ul>
+														<li>
+															<div class="form-check">
+																<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+																<label class="form-check-label" for="flexCheckDefault">
+																	Dirección comercial / tributaria
+																</label>
+															</div>
+														</li>
+														<li>
+															<div class="form-check">
+																<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+																<label class="form-check-label" for="flexCheckDefault">
+																	Eventos sociales o de networking
+																</label>
+															</div>
+														</li>
+														<li>
+															<div class="form-check">
+																<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+																<label class="form-check-label" for="flexCheckDefault">
+																	Eventos educativos / talleres
+																</label>
+															</div>
+														</li>
+														<li>
+															<div class="form-check">
+																<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+																<label class="form-check-label" for="flexCheckDefault">
+																	Servicios de incubación / aceleración
+																</label>
+															</div>
+														</li>
+														<li>
+															<div class="form-check">
+																<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+																<label class="form-check-label" for="flexCheckDefault">
+																	Mentorías
+																</label>
+															</div>
+														</li>
+														<li>
+															<div class="form-check">
+																<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+																<label class="form-check-label" for="flexCheckDefault">
+																	Café gratis
+																</label>
+															</div>
+														</li>
+														<li>
+															<div class="form-check">
+																<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+																<label class="form-check-label" for="flexCheckDefault">
+																	Terraza
+																</label>
+															</div>
+														</li>
+														<li>
+															<div class="form-check">
+																<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+																<label class="form-check-label" for="flexCheckDefault">
+																	Estacionamiento
+																</label>
+															</div>
+														</li>
+														<li>
+															<div class="form-check">
+																<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+																<label class="form-check-label" for="flexCheckDefault">
+																	Lockers
+																</label>
+															</div>
+														</li>
+														<li>
+															<div class="form-check">
+																<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+																<label class="form-check-label" for="flexCheckDefault">
+																	Bicicleteros
+																</label>
+															</div>
+														</li>
+													</ul>
+												</div>
+												<div class="col-lg-4 col-md-6">
+													<ul>
+														<li>
+															<div class="form-check">
+																<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+																<label class="form-check-label" for="flexCheckDefault">
+																	Salas - máquinas de prototipeo
+																</label>
+															</div>
+														</li>
+														<li>
+															<div class="form-check">
+																<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+																<label class="form-check-label" for="flexCheckDefault">
+																	Salas de reuniones
+																</label>
+															</div>
+														</li>
+														<li>
+															<div class="form-check">
+																<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+																<label class="form-check-label" for="flexCheckDefault">
+																	Internet de alta velocidad
+																</label>
+															</div>
+														</li>
+														<li>
+															<div class="form-check">
+																<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+																<label class="form-check-label" for="flexCheckDefault">
+																	Teléfono propio
+																</label>
+															</div>
+														</li>
+														<li>
+															<div class="form-check">
+																<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+																<label class="form-check-label" for="flexCheckDefault">
+																	Impresoras 3D
+																</label>
+															</div>
+														</li>
+														<li>
+															<div class="form-check">
+																<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+																<label class="form-check-label" for="flexCheckDefault">
+																	Préstamo de computadores / tablets
+																</label>
+															</div>
+														</li>
+														<li>
+															<div class="form-check">
+																<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+																<label class="form-check-label" for="flexCheckDefault">
+																	Sistema / app para reserva de salas
+																</label>
+															</div>
+														</li>
+														<li>
+															<div class="form-check">
+																<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+																<label class="form-check-label" for="flexCheckDefault">
+																	Recepcionista
+																</label>
+															</div>
+														</li>
+														<li>
+															<div class="form-check">
+																<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+																<label class="form-check-label" for="flexCheckDefault">
+																	Descuentos / alianzas con otros negocios
+																</label>
+															</div>
+														</li>
+														<li>
+															<div class="form-check">
+																<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+																<label class="form-check-label" for="flexCheckDefault">
+																	Gimnasio
+																</label>
+															</div>
+														</li>
+													</ul>
+												</div>
+												<div class="col-lg-4 col-md-6">
+													<ul>
+														<li>
+															<div class="form-check">
+																<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+																<label class="form-check-label" for="flexCheckDefault">
+																	Cabinas telefónicas
+																</label>
+															</div>
+														</li>
+														<li>
+															<div class="form-check">
+																<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+																<label class="form-check-label" for="flexCheckDefault">
+																	Bar o dispensador de cerveza
+																</label>
+															</div>
+														</li>
+														<li>
+															<div class="form-check">
+																<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+																<label class="form-check-label" for="flexCheckDefault">
+																	Sala de lactancia
+																</label>
+															</div>
+														</li>
+														<li>
+															<div class="form-check">
+																<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+																<label class="form-check-label" for="flexCheckDefault">
+																	Guardería
+																</label>
+															</div>
+														</li>
+														<li>
+															<div class="form-check">
+																<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+																<label class="form-check-label" for="flexCheckDefault">
+																	Asesorías
+																</label>
+															</div>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+										
+										
+										<!-- IMAGENES -->
+										<div class="col-md-6 mt-5 ">
+											<div class="position-relative">
+												<a href="#">
+													<img src="img/sala_1.jpg" alt="" class="img-fluid">
+												<i class="bi bi-x-square img-delete position-absolute top-0 end-0 me-1 mt-1"></i>
+												</a>
+											</div>
+											
+										</div>	
+										<div class="col-md-6 mt-5">
+											<div class="row">
+												<div class="col-md-6">
+													<div class="position-relative">
+														<a href="#">
+															<img src="img/sala_1.jpg" alt="" class="img-fluid">
+														<i class="bi bi-x-square img-delete position-absolute top-0 end-0 me-1 mt-1"></i>
+														</a>
+													</div>
+												</div>
+												<div class="col-md-6">
+													<div class="position-relative">
+														<a href="#">
+															<img src="img/sala_1.jpg" alt="" class="img-fluid">
+														<i class="bi bi-x-square img-delete position-absolute top-0 end-0 me-1 mt-1"></i>
+														</a>
+													</div>
+												</div>
+												<div class="col-md-6 mt-4">
+													<div class="position-relative">
+														<a href="#">
+															<img src="img/sala_1.jpg" alt="" class="img-fluid">
+														<i class="bi bi-x-square img-delete position-absolute top-0 end-0 me-1 mt-1"></i>
+														</a>
+													</div>
+												</div>
+												<div class="col-md-6 mt-4">
+													<div class="position-relative">
+														<a href="#">
+															<img src="img/sala_1.jpg" alt="" class="img-fluid">
+															<i class="bi bi-x-square img-delete position-absolute top-0 end-0 me-1 mt-1"></i>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>	
+										<div class="col-xl-4 col-lg-6">
+											<button class="btn btn-success btn-lg w-100 fs-6 btn-agregar mt-2 mb-5">AGREGAR IMÁGENES</button>
+										</div>
+
+
+										<!-- FACTOR -->
+										<div class="col-lg-12">
+											<div class="row mt-5 ">
+												<div class="col-lg-3 col-md-4">
+													<h6>VALOR DEL ESPACIO:</h6>
+												</div>
+												<div class="col-lg-2 col-md-2">
+													<div class="dropdown">
+														<a class="btn btn-secondary mx-auto d-block dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+															$ <i class="bi bi-caret-down-fill"></i>
+														</a>
+														<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+															<li><a class="dropdown-item" href="#">UF</a></li>
+															<li><a class="dropdown-item" href="#">$</a></li>
+														</ul>
+													</div>
+												</div>
+												<div class="col-lg-2 col-md-3">
+													<input type="text" class="form-control" placeholder="0" disabled>
+												</div>
+											</div>
+											<div class="row mt-5">
+												<div class="col-lg-8 offset-lg-3">
+													<p>Factor (*n° de veces por la cual se multiplicará el valor del plan)</p>
+												</div>
+												<div class="col-lg-2 col-md-3 offset-lg-3">
+													<input type="text" class="form-control" placeholder="0" disabled>
+												</div>
+											</div>
+										</div>
+
+										<!-- PLANES -->
+										<div class="col-12">
+											<h2 class="mt-5 mb-5">PLANES ASOCIADOS</h2>
+											<h6>PLANES SUGERIDOS:</h6>
+											<div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-5 ">
+												<div class="col">
+														<img src="img/a-8.png" class="card-img-top shadow-lg" alt="...">
+												</div>
+												<div class="col">
+													<img src="img/b-8.png" class="card-img-top shadow-lg" alt="...">
+												</div>
+												<div class="col">
+													<img src="img/c-8.png" class="card-img-top shadow-lg" alt="...">
+												</div>
+												<div class="col">
+													<img src="img/d-8.png" class="card-img-top shadow-lg" alt="...">
+												</div>
+												<div class="col">
+													<img src="img/e-8.png" class="card-img-top shadow-lg" alt="...">
+												</div>
+												<div class="col">
+													<img src="img/f-8.png" class="card-img-top shadow-lg" alt="...">
+												</div>
+												<div class="col">
+													<img src="img/g-8.png" class="card-img-top shadow-lg" alt="...">
+												</div>
+												<div class="col">
+													<img src="img/h-8.png" class="card-img-top shadow-lg" alt="...">
+												</div>
+												<div class="col">
+													<img src="img/i-8.png" class="card-img-top shadow-lg" alt="...">
+												</div>
+												<div class="col">
+													<img src="img/j-8.png" class="card-img-top shadow-lg" alt="...">
+												</div>
+												<div class="col">
+													<img src="img/k-8.png" class="card-img-top shadow-lg" alt="...">
+												</div>
+												<div class="col">
+													<img src="img/l-8.png" class="card-img-top shadow-lg" alt="...">
+												</div>
+												<div class="col">
+													<img src="img/m-8.png" class="card-img-top shadow-lg" alt="...">
+												</div>
+												<div class="col">
+													<img src="img/n-8.png" class="card-img-top shadow-lg" alt="...">
+												</div>
+												<div class="col">
+													<img src="img/o-8.png" class="card-img-top shadow-lg mb-5" alt="...">
+												</div>
+											</div>
+										</div>										
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+					<!-- PLANES 2 -->
+					<div class="plan-p pt-3 pb-5">
+						<div class="col-lg-8 offset-lg-2">
+							<div class="container mt-5 mb-5">
+								<div class="col-lg-12 mt-5">
+									<h3>MIS PLANES PERSONALIZADOS:</h3>
+									<div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-5 ">
+										<div class="col">
+											<img src="img/a-8.png" class="card-img-top shadow-lg" alt="...">
+										</div>
+										<div class="col">
+											<img src="img/b-8.png" class="card-img-top shadow-lg" alt="...">
+										</div>
+										<div class="col">
+											<img src="img/c-8.png" class="card-img-top shadow-lg" alt="...">
+										</div>	
+									</div>
+									<div class="col-lg-4 offset-lg-4 mt-5">
+										<button class="btn btn-primary btn-lg w-100 fs-6 btn-color mt-5 mb-5">CREAR ESPACIO</button>
+									</div>
+								</div>
+							</div>		
+						</div>
+					</div>
+					
+				</div>
+			</div>
+    </section>
+
+    <!-- FOOTER -->
+    <div>
+      <footer class="text-center text-lg-start text-white">
+        <div class="container-xxl p-4">
+          <div class="row mt-4">
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0 my-4">
+              <ul class="list-unstyled mb-0">
+                <br>
+                <li>
+                  <a href="#!" class="text-white">Políticas del sitio</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Conviértete en socio arrendador</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Contacto</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-7 col-md-6 mb-4 mb-md-0">
+              <div class="footer-logo align-self-center">
+                <img src="img/logo-1.png" class="img-fluid " alt="">
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-6 mb-4 mb-md-0 my-3">
+              <ul class="list-unstyled rrss d-flex justify-content-center">
+                <li>
+                  <a href="#!" class="text-white"><i class="bi bi-facebook fa-2x"></i></a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white "><i class="bi bi-instagram fa-2x"></i></a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white"><i class="bi bi-whatsapp fa-2x"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="navBottom ml-3 p-3" style="background-color: rgba(0, 0, 0, 1)">
+          Derechos del sitio web (Copyright ©)
+        </div>
+      </footer>
+    </div>
+    <!-- FOOTER -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  
+  </body>
+</html>

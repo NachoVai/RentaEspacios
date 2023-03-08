@@ -1,0 +1,204 @@
+/* NAVBAR AVATAR */
+
+.dropdown-toggle::after{
+    content: none;
+}
+
+.my-select{
+    background-image: url(../img/icons8-collapse-arrow-64.png);
+    opacity: 1 !important;
+    background-color: #1c7bbf;
+    border-color: #1c7bbf;
+    color: #fff;
+  }
+.bi-person{
+    font-size: 40px;
+    border-radius: 50%;
+    color: #fff;
+}
+
+button.nav-btn{
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 24px;
+    line-height: 1.33;
+    margin-top: px;
+}
+
+.btn-secondary {
+    background-color: #1c7bbf;
+    border-color: #1c7bbf;
+}
+
+.drop-btn {
+    background-color: #584585 !important;
+    border-color: #584585;
+}
+
+/* LEFT */
+
+.side-left{
+    background-color: #f4f8fb;
+}
+
+hr{
+    border: 3px solid;
+    border-color: #9ea6aa;
+}
+
+.miPerfil{
+    color: #1c7bbf;
+}
+
+.h4{
+    margin-bottom: 100px;
+}
+
+.h4 a{
+    text-decoration: none;
+    color: #1c7bbf;
+}
+
+.avatar1{
+    border-radius: 50%;
+    width: 150px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+
+/* LEFT SOCIOS */
+.h5{
+    margin-left: 15%;
+    margin-bottom: 30px;
+}
+.h5 a{
+    text-decoration: none;
+}
+
+.h4-socio{
+    margin-bottom: 25px;
+}
+
+.h4-socio a{
+    text-decoration: none;
+    color: #1c7bbf;
+}
+
+
+/* RIGTH */
+
+/* TABLE */
+.table-responsive{
+    background-color: #f5f5f5 !important;
+}
+
+thead{
+    background-color: #fff !important;
+}
+.th-color{
+    background-color: #f5f5f5 !important;
+}
+
+.t-color{
+    background-color: #fff !important;
+    padding: 5px;
+    border-radius: 5%;
+    
+}
+
+section ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.btn-primary{
+    background-color: #584585 !important;
+    width: 200px;
+}
+
+.btn-disponible{ 
+    background-color: #fff !important;
+    pointer-events: none;
+}
+
+.btn-arrendado{ 
+    background-color: #d3d1de !important;
+    pointer-events: none;
+    opacity: 0.65;
+}
+.btn-color{
+    background-color: #1c7abe !important;
+}
+
+.btn-success{
+    background-color: #83c390;
+    border-color:#83c390 ;
+    width: 200px;
+}
+.my-i{
+    color: #584585 !important;
+    
+}
+
+.invisible{
+    color: #f5f5f5;
+}
+
+
+/* FORM */
+.form-control{
+    border: none;
+    background-color: #f5f5f5;
+}
+
+.btn-secondary{
+    background-color: #584585;
+    margin-bottom: 10px;
+}
+
+.btn-agregar{
+    background-color: #83c390;
+}
+
+
+
+
+/* TABLE */
+
+.col-nombre{
+    width: 380px;
+}
+
+.card-body{
+    text-align: justify;
+}
+
+.my-img{
+    width: 200px;
+    height: 200px;
+}
+
+.my-card{
+    text-align: justify;
+}
+
+/* CHECKS */
+.checks{
+    background-color: #f5f5f5;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 10px;
+}
+
+/* IMAGENES */
+.img-delete{
+    color: #83c390;
+}
+
+/* PLANES 2 */
+.plan-p{
+    background-color: #e0e0e0;
+}
