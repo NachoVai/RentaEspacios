@@ -66,6 +66,7 @@
   
   img.benef-img{
     padding: 80px;
+    filter: drop-shadow(-2px 2px 15px rgba(0, 0, 0, 0.7));
   }
 
   .myTitle{

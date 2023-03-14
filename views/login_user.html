@@ -11,8 +11,8 @@
     <title>Renta Espacios</title>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/login.css">
     
     <!-- FONT AWESOME -->
     <script src="https://kit.fontawesome.com/7e481f2a93.js" crossorigin="anonymous"></script>
@@ -32,7 +32,7 @@
     <!-- NAVBAR -->
     <nav id="navbar" class="navbar navbar-expand-lg navbar-light">
       <div class="container">
-        <a href="index.html"><img src="img/logo_1.png" class="nav-brand" width="180px" height="40px" ></a>
+        <a href="index.html"><img src="../img/logo_1.png" class="nav-brand" width="180px" height="40px" ></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-label="Toggle navigation" aria-expanded="false">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -47,7 +47,7 @@
               </button>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <li><a class="dropdown-item" href="#">USUARIO</a></li>
-                <li><a class="dropdown-item" href="#">SOCIO ARRENDADOR</a></li>
+                <li><a class="dropdown-item" href="login_partner.html">SOCIO ARRENDADOR</a></li>
               </ul>
             </li>
           </ul>
@@ -63,13 +63,13 @@
 
           <!-- RIGTH -->
 					<div class="col-lg-4 text-center mb-5 mt-5">
-            <h2 class="pt-5 mb-5 mt-5">Crea tu cuenta</h2>
+            <h2 class="pt-5 mb-5 mt-5">Ingresa a tu cuenta</h2>
             <ul class="nav nav-tabs">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="register_user.html">Usuario</a>
+                <a class="nav-link active" aria-current="page" href="login_user.html">Usuario</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="register_partner.html">Partner</a>
+                <a class="nav-link " href="login_partner.html">Partner</a>
               </li>
             </ul>
             <div class="container-fluid container-color pt-5">
@@ -78,28 +78,20 @@
               <br>
               <div class="pt-3 pb-5">
                 <form>
-									<h5 class="text-start mb-4">Ingresa tus datos</h5>
                   <div class="mb-4">
-                    <input class="form-control-lg w-100 myInput" placeholder="Nombre*">
-                  </div>
-									<div class="mb-4">
-                    <input class="form-control-lg w-100 myInput" placeholder="Apellidos*">
-                  </div>
-									<div class="mb-4">
-                    <input class="form-control-lg w-100 myInput" placeholder="Correo electrónico*">
-                  </div>
-									<div class="mb-4">
-                    <input class="form-control-lg w-100 myInput" placeholder="Contraseña">
+                    <input class="form-control-lg w-100 myInput" placeholder="Correo electrónico">
                   </div>   
                   <div class="mb-3">
-                    <input class="form-control-lg w-100 myInput" placeholder="Repita contraseña">
+                    <input class="form-control-lg w-100 myInput" placeholder="Contraseña">
+                    <a href="" class="a2"><span>Olvidé mi contraseña</span> </a> 
                   </div>
                   <br>
                   <br>                   
-                  <button type="submit" class="btn btn-lg btn-primary ps-5 rounded-3 pe-5 mb-3 btn-register">CREAR MI CUENTA</button>
+                  <button type="submit" class="btn btn-lg btn-primary ps-5 rounded-3 pe-5">INICIAR SESIÓN</button>
+                  <h5 class="pt-3 pb-5"><a href="" class="a1">Crear cuenta</a></h5>
                 </form>
-                <p class="linea mb-3"><span>O conectar con:</span></p>
-                <div class="container pb-5 pt-5 mb-4">
+                <p class="linea mb-5"><span>O conectar con:</span></p>
+                <div class="container pb-5 pt-5">
                   <div class="row col-lg-10 offset-lg-1">
                     <div class="col">
                       <i class="bi bi-google icon"></i>
@@ -112,8 +104,7 @@
                     </div>
                   </div>
                 </div>
-                <h4 class="mb-4">¿Ya tienes una cuenta?</h4>
-								<button type="button" class="btn btn-lg btnIngresar btn-outline-success">Ingresar</button>
+                
               </div>
               
             </div>
@@ -144,7 +135,7 @@
             </div>
             <div class="col-lg-7 col-md-6 mb-4 mb-md-0">
               <div class="footer-logo align-self-center">
-                <img src="img/logo-1.png" class="img-fluid " alt="">
+                <img src="../img/logo-1.png" class="img-fluid " alt="">
               </div>
             </div>
             <div class="col-lg-2 col-md-6 mb-4 mb-md-0 my-3">
